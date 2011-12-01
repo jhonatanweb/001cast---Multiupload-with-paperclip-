@@ -1,0 +1,9 @@
+one:
+  title: MyString
+  content: MyText
+  price: 9.99
+
+two:
+  title: MyString
+  content: MyText
+  price: 9.99

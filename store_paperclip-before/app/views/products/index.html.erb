@@ -1,0 +1,13 @@
+<h2>Listing Products</h2>
+
+<p><%= link_to "New Product", new_product_path %></p>
+<hr />
+
+<% for product in @products %>
+<div class="products">
+	<h2><%= link_to product.title, product_path(product) %></h2>
+	<p>
+		<%= product.content %>
+	</p>
+</div>
+<% end %>
